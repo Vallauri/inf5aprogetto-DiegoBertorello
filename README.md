@@ -1,5 +1,3 @@
-# inf5aprogetto-DiegoBertorello
-inf5aprogetto-DiegoBertorello created by GitHub Classroom
 <h1>Titolo del sito</h1>
 <p>Foto futuro sito</p>
 <h2>Descrizione:</h2>
