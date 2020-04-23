@@ -1,7 +1,7 @@
-<h1>Titolo del sito</h1>
+<h1>DeliverIndoor</h1>
 <p>Foto futuro sito</p>
 <h2>Descrizione:</h2>
-<p>* Nome del sito * è una piattaforma attraverso la quale è possibile contattare tutte le attività commerciali della tua zona che mettono a disposizione un servizio a domicilio, fornendo tutti i contatti necessari e le condizioni di consegna (Orario, Zona coperta dal servizio). </p>
+<p>DeliverIndoor è una piattaforma attraverso la quale è possibile contattare tutte le attività commerciali della tua zona che mettono a disposizione un servizio a domicilio, fornendo tutti i contatti necessari e le condizioni di consegna (Orario, Zona coperta dal servizio). </p>
 <h2>Tecnologie utilizzate:</h2>
 <ul>
 <li>HTML</li>
