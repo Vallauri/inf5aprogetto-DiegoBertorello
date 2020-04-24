@@ -2,8 +2,29 @@ nav{
     background-color: #662E9B;
 }
 
-a{
+nav a:link{
     color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #e50040;
+}
+nav a:active{
+  color: #e50040;
+}
+
+a.dropdown-item:link{
+  color: #000;
+}
+
+a.dropdown-item:visited{
+  color: #000;
+}
+
+.dropdown-menu{
+  left: -96px !important;
 }
 
 .buscar-caja { 

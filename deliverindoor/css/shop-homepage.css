@@ -9,5 +9,66 @@ body {
 
 .categ{
   width: 60px !important;
-  margin: 20 auto;
+}
+
+a:link{
+  color: #e50040;
+}
+a:visited{
+  color: #e50040;
+}
+a:hover{
+  color: #aa0029;
+}
+a:active{
+  color: #aa0026;
+}
+
+.caro{
+  margin: 0 auto;
+}
+
+.search-sec{
+  padding: 2rem;
+  border-radius:5px;
+}
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: 60px !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: 60px !important;
+  border-radius:0;
+}
+@media (min-width: 992px){
+  .search-sec{
+      position: relative;
+      top: -164px;
+      background: rgba(102, 46, 155, 0.51);
+      margin: 0 auto;
+  }
+  .categ{
+    margin: -100px auto;
+  }
+}
+
+@media (max-width: 992px){
+  .search-sec{
+      background: #662e9b;
+  }
+  .categ{
+    margin: 20px auto;
+  }
 }
