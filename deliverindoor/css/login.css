@@ -9,7 +9,7 @@ html,body{
     width: 300px;
     margin: 80px auto;
     padding: 20px 40px 40px;
-    text-align: center;
+    text-align: left;
     background: #fff;
     border: 1px solid #ccc;
 }
@@ -91,6 +91,8 @@ html,body{
 .form-box button.login{
     margin-top:15px;
     padding: 10px 20px;
+    background-color: #e50040;
+    border-radius: 
 }
 
 .animated {
@@ -134,3 +136,4 @@ html,body{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
