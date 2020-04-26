@@ -1,17 +1,12 @@
 body{background: url(../img/bg.png);}
-html,body{
-    position: relative;
-    height: 100%;
-}
 
 .login-container{
-    position: relative;
-    width: 300px;
     margin: 80px auto;
     padding: 20px 40px 40px;
     text-align: left;
     background: #fff;
     border: 1px solid #ccc;
+    float: none !important;
 }
 
 #output{
@@ -54,18 +49,26 @@ html,body{
 
 }
 
+#nomeAttivita{
+  width: 80% !important;
+}
+
 .avatar{
-    width: 100px;height: 100px;
+    width: 100px;
+    height: 100px;
     margin: 10px auto 30px;
     border-radius: 100%;
     border: 2px solid #aaa;
     background-size: cover;
 }
 
+.form-box div{
+  margin: 0 auto;
+}
+
 .form-box input{
     width: 100%;
     padding: 10px;
-    text-align: center;
     height:40px;
     border: 1px solid #ccc;;
     background: #fafafa;
@@ -73,23 +76,42 @@ html,body{
 
 }
 
+.form-box textarea{
+  padding: 10px;
+  height:40px;
+  border: 1px solid #ccc;;
+  background: #fafafa;
+  transition:0.2s ease-in-out;
+  resize: none;
+  height: 125px;
+}
+
+#orarioAttivita{
+  height: 200px !important;
+}
+
+.form-box select{
+  width: 100%;
+  padding: 10px;
+  height:40px;
+  border: 1px solid #ccc;;
+  background: #fafafa;
+  transition:0.2s ease-in-out;
+  border-radius: 5px;
+}
+
 .form-box input:focus{
     outline: 0;
     background: #eee;
 }
 
-.form-box input[type="text"]{
-    border-radius: 5px 5px 0 0;
-    text-transform: lowercase;
-}
-
-.form-box input[type="password"]{
-    border-radius: 0 0 5px 5px;
-    border-top: 0;
+.form-box input{
+    border-radius: 5px;
 }
 
 .form-box button.login{
-    margin-top:15px;
+    margin: 30px auto;
+    width:60%;
     padding: 10px 20px;
     background-color: #e50040;
     border-radius: 5px;
