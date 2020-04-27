@@ -1,0 +1,35 @@
+input{
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+}
+.update{
+    background-color: #e50040;
+    width: 200px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: +30px;
+}
+.dot{
+    color: #f8f9fc;
+}
+@media (max-width: 992px){
+    .centro{
+        margin: 20px auto;
+    }
+    .text-alignment{
+        text-align: center;
+    }
+    .box-alignment{
+        text-align: center;
+    }
+  }
+
+  @media (min-width: 992px){
+    .text-alignment{
+        text-align: right;
+    }
+    .box-alignment{
+        text-align: left;
+    }
+  }

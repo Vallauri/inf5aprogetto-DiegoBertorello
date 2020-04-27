@@ -1,0 +1,16 @@
+.card a:link{
+    color: #e50040 !important;
+  }
+  .card a:visited{
+    color: #e50040 !important;
+  }
+  .card a:hover{
+    color: #aa0029 !important;
+  }
+  .card a:active{
+    color: #aa0026 !important;
+  }
+
+  .carte{
+      margin-top: 20px;
+  }

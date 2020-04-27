@@ -1,0 +1,60 @@
+body {
+    padding-top: 56px;
+}
+
+a:link{
+    color: #e50040;
+}
+a:visited{
+    color: #e50040;
+}
+a:hover{
+    color: #aa0029;
+}
+a:active{
+    color: #aa0026;
+}
+h2{
+    color: #e50040;
+    margin-top: 20px;
+}
+.foto{
+    border-radius: 5px;
+}
+.textarea{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.map{
+    border-radius: 5px;
+    border: 1px solid #e50040;
+}
+.riga{
+    margin-top: 30px;
+}
+#emailcon{
+    resize: none;
+    border-radius: 5px;
+    height: 170px;
+    width: 100%; 
+}
+#indemail{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+.nick{
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #e50040;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.rec{
+    border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+    background-color: lightgrey;
+    border-top: none;
+}
+

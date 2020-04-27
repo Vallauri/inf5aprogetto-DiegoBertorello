@@ -1,0 +1,86 @@
+nav{
+    background-color: #662E9B;
+}
+
+nav a:link{
+    color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #e50040;
+}
+nav a:active{
+  color: #e50040;
+}
+
+a.dropdown-item:link{
+  color: #000 !important;
+}
+
+a.dropdown-item:visited{
+  color: #000 !important;
+}
+
+.dropdown-menu{
+  left: -96px !important;
+}
+
+.buscar-caja { 
+    position: relative; 
+    top: 50%; left: 50%; 
+    height: 40px;
+    transform: translate(-50%, -50%); 
+    background: #fff; 
+    border-radius: 20px; 
+    padding: 10px; 
+  } 
+  .buscar-caja:hover > .buscar-txt 
+  {
+    width: 200px; 
+    padding: 0 6px; 
+  } 
+  .buscar-caja:hover > .buscar-btn {
+    background: white; 
+    color: black; 
+  } 
+  
+  .buscar-btn { 
+    
+    float: right; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: 0.4s; 
+    color: white; 
+    cursor: pointer; 
+  } 
+  .buscar-btn > i 
+  { 
+    font-size: 14px; 
+  } 
+  .buscar-txt { 
+    border: none; 
+    background: none; 
+    outline: none; 
+    float: left; 
+    padding: 0; 
+    color: #333; 
+    font-size: 12px; 
+    transition: 0.4s; 
+    line-height: 20px; 
+    width: 0px; 
+    font-weight: bold; 
+  }
+  
+  .btn-primary{
+      background: #fff;
+      color: #CB356B;
+      border: none;
+  }
+  
