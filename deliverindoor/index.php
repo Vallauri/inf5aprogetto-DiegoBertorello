@@ -36,13 +36,13 @@
             <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                <img class="d-block w-100" src="http://placehold.it/900x350" alt="First slide">
+                <img class="d-block w-100" src="./img/slide1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="http://placehold.it/900x350" alt="Second slide">
+                <img class="d-block w-100" src="./img/slide2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="http://placehold.it/900x350" alt="Third slide">
+                <img class="d-block w-100" src="./img/slide3.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -73,6 +73,8 @@
                                         <option>Ristoranti</option>
                                         <option>Panetterie</option>
                                         <option>Macellerie</option>
+                                        <option>Gelaterie</option>
+                                        <option>Fruttivendoli</option>
                                     </select>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 p-0">
@@ -86,27 +88,37 @@
         </section>
 
         <!-- Icons Grid -->
-        <section class="features-icons text-center" style="margin-bottom: 30px;">
+        <section class="features-icons text-center" style="margin-bottom: 20px;margin-top: -20px;">
             <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-6">
+                <div class="col-lg-2 col-sm-6 col-6">
                     <div class="categ">
                         <img src="img/pizza.svg" title="Pizzerie">
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-6">
+                <div class="col-lg-2 col-sm-6 col-6">
                     <div class="categ">
                         <img src="img/restaurant.svg" title="Ristoranti">
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-6">
+                <div class="col-lg-2 col-sm-6 col-6">
                     <div class="categ">
                         <img src="img/bread.svg" title="Panetterie">
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-6">
+                <div class="col-lg-2 col-sm-6 col-6">
                     <div class="categ">
                         <img src="img/meat.svg" title="Macellerie"> 
+                    </div> 
+                </div>
+                <div class="col-lg-2 col-sm-6 col-6">
+                    <div class="categ">
+                        <img src="img/icecream.svg" title="Gelaterie"> 
+                    </div> 
+                </div>
+                <div class="col-lg-2 col-sm-6 col-6">
+                    <div class="categ">
+                        <img src="img/vegetables.svg" title="Fruttivendoli"> 
                     </div> 
                 </div>
             </div>
@@ -127,7 +139,22 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-300">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <a href="./homeAzienda.php"><img class="card-img-top" src="./img/neg1.jpg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                            <a href="./homeAzienda.php">Prova negozio</a>
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-300">
+                        <a href="#"><img class="card-img-top" src="./img/neg2.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                             <a href="#">Prova negozio</a>
@@ -142,22 +169,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-300">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                            <a href="#">Prova negozio</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-300">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="./img/neg3.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                             <a href="#">Prova negozio</a>
