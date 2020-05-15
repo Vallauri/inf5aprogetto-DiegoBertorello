@@ -16,8 +16,15 @@
 			$user = $_POST['user'];
 			$telefono = $_POST['telefono'];
 			$pwd = $_POST['pwd'];
-			$confpwd = $_POST['confpwd'];
-			echo($pwd);
+			$confpwd = $_POST['confPwd'];
+			/*echo "$nome"."<br>";
+			echo "$cognome"."<br>";
+			echo "$email"."<br>";
+			echo "$user"."<br>";
+			echo "$telefono"."<br>";
+			echo "$pwd"."<br>";
+			echo "$confpwd"."<br>";
+            $conn->close();*/
                 
 
             if($pwd == $confpwd){
@@ -25,11 +32,10 @@
 			$rs =$conn->query($query);
 			
 			$conn->close();
-			header("Location: login.php");
+			//echo "Registrazione completata con successo!";
             }
             else{
-                echo "Identificazione non riuscita: nome utente o password errati <br />";
-                echo "Torna a pagina di <a href=\"registrazioneUtente.php\">Registrazione Utente</a>"; 
+                echo "Errore! Query non eseguita.";
             }
 			
 ?>
