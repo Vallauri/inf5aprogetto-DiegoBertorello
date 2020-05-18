@@ -32,16 +32,22 @@ h2{
 .riga{
     margin-top: 30px;
 }
-#emailcon{
-    resize: none;
+#address{
     border-radius: 5px;
-    height: 170px;
-    width: 100%; 
+    height: 30px;
+    border: 1px solid #808080;
+    width: 100%;
 }
-#indemail{
+#object{
     border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid gray;
+    height: 30px;
+    border: 1px solid #808080;
+    width: 100%;
+    margin-top: 10px;
+}
+.alert{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .nick{
     border: 1px solid grey;
@@ -52,9 +58,39 @@ h2{
     margin-top: 5px;
 }
 .rec{
-    border: 1px solid grey;
     border-radius: 0 0 5px 5px;
     background-color: lightgrey;
-    border-top: none;
+    padding: 0;
+    height: 50px;
+}
+#commenta{
+    background-color: #e50040;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    margin-top: 5px;
 }
 
+#rec{
+    border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.send{
+    background-color: #e50040;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+textarea{
+    resize: none;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    margin-top: 10px;
+}

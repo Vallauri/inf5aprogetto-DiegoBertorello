@@ -20,6 +20,8 @@
 
         <!-- Javascript link-->
         <script src="js/header.js"></script>
+        
+        
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -42,8 +44,8 @@
                     <img src="./img/neg1.jpg" class="img-fluid">
                 </div>
                 <div class="col-lg-6 map d-flex justify-content-center ">
-                    <div class="col-lg-11 bg-light">
-                        <img src="./img/mappemilano.jpg" class="img-fluid">
+                    <div class="col-lg-11 bg-light" id="map">
+                       
                     </div>
                 </div>
             </div>
@@ -57,13 +59,13 @@
                     </div>
                     <div class="row">
                         <h5>Email: </h5>
-                        <div id="email">
+                        <div id="email_az">
                             <p>&nbsp negozio@prova.com</p>
                         </div>
                     </div>
                     <div class="row">
                         <h5>Indirizzo: </h5>
-                        <div id="address">
+                        <div id="address_az">
                             <p>&nbsp Via Prova 11, Roma(RM)</p>
                         </div>
                     </div>
@@ -82,13 +84,23 @@
                     <div class="row">
                         <h5>Recensioni:</h5>
                     </div>
+                    <!--Recensioni-->
                     <div class="row d-flex justify-content-center">
-                        <div class="col-lg-10 nick bg-light">
-                            <h6 id="nick">SiUomo_00</h6>
-                        </div>
-                        <div class="col-lg-10 rec">
-                            <p id="rec">commento commento commento commento commento</p>
-                        </div>
+                        <form action="setRec.php" method="POST">
+                            <div class="col-lg-10 nick bg-light">
+                                <h6 id="nick">SiUomo_00</h6>
+                            </div>
+                            <div class="col-lg-10 rec">
+                                <input name="recensione" type="text" id="rec" placeholder="Scrivi una recensione..."></input>
+                            </div>
+                            <div class="col-lg-10 row">
+                                <div class="col-lg-6">
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <button id="commenta" class="btn btn-block" type="submit">Invia</button>
+                                </div>
+                            </div>
+                        </form>    
                     </div>
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-10 nick bg-light">
@@ -136,12 +148,37 @@
                         </div>
                     </div>
                     <hr style="height:2px;border-width:0;color:black;background-color:#e50040">
+
+                    <!--Contact-->
                     <h5>Contatta via mail:</h5>
-                    <div class="col-lg-6 col-12">
-                        <input id="indemail" type="text" placeholder="email@prova.com">
+                    <div id="success" class="alert alert-success alert-dismissible">
+                        Mail inviata con successo.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
                     </div>
-                    <div class="col-lg-12 mail">
-                        <textarea id="emailcon" name="testoemail" placeholder="Scrivi una mail..."></textarea>
+                    <div id="alertEmail" class="alert alert-danger alert-dismissible">
+                        <strong>Attenzione!</strong> Indirizzo mail errato o mancante.
+                        <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <input type="text" id="address"></input>
+                    </div>
+                    <div id="alertSubject" class="alert alert-danger alert-dismissible">
+                        <strong>Attenzione!</strong> oggetto della mail mancante.
+                        <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <input type="text" id="object"></input>
+                    </div>
+                    <div id="alertText" class="alert alert-danger alert-dismissible">
+                        <strong>Attenzione!</strong> Corpo della mail mancante.
+                        <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+                    </div>
+                    <div class="col-lg-12">
+                        <textarea id="email" col="150" row="50" maxlength="255"></textarea>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 col-12">
+                        <button id="send" class="btn btn-block send centro" type="submit">Invia</button>
                     </div>
                 </div>
             </div>
@@ -150,5 +187,9 @@
         <?php 
             require "footer.php";
         ?>
+        <script src="js/contact.js"></script>
+        <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+        <script src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+        <script src="js/map_az.js"></script>
     </body>
 </html>
